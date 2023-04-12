@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css2?family=Monoton&family=Roboto+Mono&family=Rokkitt:wght@300&family=Rosario:wght@700&family=Sora&family=Source+Sans+Pro&family=Work+Sans&display=swap' rel="stylesheet");
+</style>
+</head>
+
+<body>
+
+
+  <main>
+
+
+    <aside class="sidebar" sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="image-box">
+          <img src="headshot.jpg" alt="Jasmine Yearian Headshot" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Jasmine Yearian">Jasmine</h1>
+
+          <p class="title">Agua Verde</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:jasmineyearian@gmail.com" class="contact-link">jasmineyearian@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+113606439900" class="contact-link">+1 (360-643-9900)</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>London, U.K</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+      </div>
+
+    </aside>
+
+
+    <div class="main-content">
+
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link href="about.html">About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link href="index.html">Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+    <article class="contact" data-page="contact">
+<br>
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <br>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+              <label class="legends" for ="html"><strong>1: Personal Information</strong></label>
+              <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="First and last name" required data-form-input>
+              <label class="legends" for ="html"><strong>Email Address </strong> </label>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+
+          </div>
+              <label class="legends"> <strong> 2: Message</strong></label>
+              <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+              <label class="legends"><strong>3: Submit Info</strong></label>
+              <button class="form-btn" type="submit" disabled data-form-btn>
+              <span class= "legends">Send Message</span>
+            </button>
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+
+
+
+
+</body>
+
+</html>

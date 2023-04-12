@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href='https://fonts.googleapis.com/css2?family=Monoton&family=Roboto+Mono&family=Rokkitt:wght@300&family=Rosario:wght@700&family=Sora&family=Source+Sans+Pro&family=Work+Sans&display=swap' rel="stylesheet");
+</style>
+</head>
+
+<body>
+
+
+  <main>
+
+
+    <aside class="sidebar" sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="image-box">
+          <img src="headshot.jpg" alt="Jasmine Yearian Headshot" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Jasmine Yearian">Jasmine</h1>
+
+          <p class="title">Agua Verde</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:jasmineyearian@gmail.com" class="contact-link">jasmineyearian@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+113606439900" class="contact-link">+1 (360-643-9900)</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>London, U.K</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+      </div>
+
+    </aside>
+
+
+    <div class="main-content">
+
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link href="about.html">About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link href="resume.html">Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link href="portfolio.html">Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link href="contact.html">Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi, my name is Jasmine and Third year student at the University of Washington
+            studying Environmental science and Resource management and Informatics.
+          </p>
+
+          <p>
+            I love to read, run, play violin and climb in my pastime.
+
+          </p>
+        </section>
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+    <div class="modal-content">
+
+    </div>
+
+          </section>
+
+        </div>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Peninsula College</h4>
+
+              <span>2018-2020</span>
+
+              <p class="timeline-text">
+              Running start student
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Washington</h4>
+
+              <span>2020 — 2024</span>
+
+              <p class="timeline-text">
+                Informatics and Environmental Science & Resouce Management.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University College London</h4>
+
+              <span>2002 — 2004</span>
+
+              <p class="timeline-text">
+              Earth Sciences, Geography
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Aguua Verde Instructor</h4>
+
+              <span>2022 — Present</span>
+
+              <p class="timeline-text">
+Managed cash influx for the largest paddle rental business in the Pacific Northwest.
+Instructed over 200 customers per day with all differing levels of experience and ages.
+                Teach proper techniques for safety and mantain boats for operation.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Engagement Ambassodor, Ruffalo Noel Levitz</h4>
+
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+                Developed strong communication skills through building rapport with alumni by conducting fundraising efforts on behalf of a UW scholarships and initiatives for traditionally underrepresented students
+Managed a database of client information by updating and organizing prospect information.
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Guayaki Yerba Mate Student Ambassador</h4>
+              <span>2020— present</span>
+              <p class="timeline-text">
+                  Organic content creation for the companies Instagram, including leading a brand promotion program resulting in increased sales.
+                    Completed 17 sharing opportunities, successfully promoting the brand to be sold at UW Food Services
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+<br>
+          <ul class="skills-list content-card">
+
+      	     <div class="sectionContent">
+        				<ul class="keySkills">
+        					<li>Excel</li>
+        					<li>Photoshop</li>
+        					<li>Piano</li>
+        					<li>Violin</li>
+        					<li>Figma</li>
+        					<li>Github</li>
+        					<li>Portuguese</li>
+        				</ul>
+        			</div>
+        			<div class="clear"></div>
+        		</section>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+<article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+        <div class="filter-select-box">
+
+            <button class="filter-select" data-select> </button>
+<span>
+<h3> World Happiness report </h3>
+<figure class="image-box2">
+    <a target="_blank" href="https://staccjch.shinyapps.io/final-project-staccjch/"> <img alt="World happiness Report." src= "world-happiness-report.png" loading="lazy">
+    </a>
+          </figure>
+  </span>
+
+<span>
+
+<figure class="image-box2">
+<a href="https://www.figma.com/file/6854Jn5jNkNixP0fJ4FVeW/Untitled?node-id=0%3A1&t=vgxv8ZmvNseGlnMa-1" title="Safely App Prototype" class="portfolio">Safely App Prototype
+            </a>
+                                      <img src="safely.png" alt="World happiness Report" >
+                                      </figure>
+                                    </span>
+                        </div>
+
+  </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <article class="contact" data-page="contact">
+<br>
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <br>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+            <fieldset>
+              <legend class="legends"><b>1: Personal Information</b></legend>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+<legend class="legends"><b> 2: Message</b></legend>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+<legend class="legends"><b>3: Submit Info</b></legend>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <span class= "legends">Send Message</span>
+            </button>
+
+<fieldset>
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+
+
+
+
+</body>
+
+</html>
